@@ -5,6 +5,7 @@
 using namespace std;
  
 int rec(int a, int b, int c, int d) {
+ // This function checks if there are two pairs of equal numbers which is necessary condition to be a rectangle. 
   if (a == b && c == d) {
     cout << "YES";
   }
